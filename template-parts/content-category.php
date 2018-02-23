@@ -16,7 +16,7 @@
 
 	<div class="entry-content">
 		<?php
-			
+
 			wp_link_pages( array(
 				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentysixteen' ) . '</span>',
 				'after'       => '</div>',
@@ -29,7 +29,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php twentysixteen_entry_meta(); ?>
+		<?php  (); ?>
 		<?php
 			edit_post_link(
 				sprintf(
