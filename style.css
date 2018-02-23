@@ -1717,9 +1717,9 @@ line-height: 1.4em;
 letter-spacing: 0;
     }
 
-  .post-thumbnail img {
+  /*.post-thumbnail img {
         display: none;
-    }
+    }*/
 
 
     .postid-5648 .entry-content{
@@ -2215,10 +2215,10 @@ display: none;
 
 /* Default Page */
 
-    /* sprawdzam, jak zachowuje się featured images*/
+    /* sprawdzam, jak zachowuje się featured images
     .post-thumbnail img {
         display: none !important;
-    }
+    }*/
 
     .entry-header,
     .post-thumbnail,

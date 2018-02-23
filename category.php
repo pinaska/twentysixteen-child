@@ -14,9 +14,16 @@
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
+        <?php if (is_category('kodowanie')) : ?>
+          <p>w tej kategori znajdziesz ogólne posty traktujące o mojej nauce kodowania</p>
+        <?php elseif (is_category('osobiste')) : ?>
+          <p>Tutaj dzielę się bardziej osobistymi treściami</p>
+        <?php else : ?>
+          <p>każda inna nieopisana kategoria będzie miała taki opis wyświe</p>
+<?php endif; ?>
 			</header><!-- .page-header -->
 
-			<?php
+      <?php
 			// Start the Loop.
 			while ( have_posts() ) : the_post();
 
@@ -25,7 +32,7 @@
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content', get_post_format() );
+				get_template_part( 'template-parts/content-category', get_post_format() );
 
 			// End the loop.
 			endwhile;

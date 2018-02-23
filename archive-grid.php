@@ -1,3 +1,7 @@
+<?php
+//This template I have copied and tred to use to dipslay category posts in a grid format - it did not work. I think, I will need to delete this file, but leave it for now. TBC.
+
+
 <div class="gridBox">
   <h2 class="grid-header"><?php _e('Gallery Page', 'rys'); ?></h2>
   <div class="boxes-container">
