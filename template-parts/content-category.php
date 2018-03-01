@@ -12,7 +12,7 @@
 	<header class="entry-header">
 	</header><!-- .entry-header -->
 
-	<?php the_post_thumbnail('medium');?>
+	<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('medium')?></a>
 
 	<div class="entry-content">
 		<?php
@@ -29,7 +29,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php  (); ?>
 		<?php
 			edit_post_link(
 				sprintf(

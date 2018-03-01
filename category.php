@@ -14,13 +14,6 @@
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
-        <?php if (is_category('kodowanie')) : ?>
-          <p>w tej kategori znajdziesz ogólne posty traktujące o mojej nauce kodowania</p>
-        <?php elseif (is_category('osobiste')) : ?>
-          <p>Tutaj dzielę się bardziej osobistymi treściami</p>
-        <?php else : ?>
-          <p>każda inna nieopisana kategoria będzie miała taki opis wyświe</p>
-<?php endif; ?>
 			</header><!-- .page-header -->
 
       <?php

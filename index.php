@@ -23,7 +23,7 @@ get_header(); ?>
 	</label>
 	<button type="submit" class="search-submit"><span class="screen-reader-text"><?php echo _x( 'Search', 'submit button', 'twentysixteen' ); ?></span></button>
 </form>
-<?php echo ("<h6><a href=#>Nie ma nic dla Ciebie? Napisz do mnie</a></h6>");?>
+<?php echo ("<h6><a href=https://www.kasiaikod.pl/witaj/o-mnie/>Nie ma nic dla Ciebie? Napisz do mnie</a></h6>");?>
 </div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
