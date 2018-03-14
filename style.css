@@ -1,9 +1,9 @@
 /*
- Theme Name:   Kasiaikod theme for Twnety Sixteen
+ Theme Name:   Kasiaikod theme for Twnenty Sixteen
  Description:  This theme is a child theme of Twenty Sixteen
  Author:       Kasia Kate Jeziorska
  Template:     twentysixteen
-naglowek do zmiany jak skoncze css*/
+css styling inspired in a great way by melissacarter wordpress blog layout*/
 
 /*minor styling*/
 .su_accordion{
@@ -800,7 +800,6 @@ naglowek do zmiany jak skoncze css*/
         text-align: center;
         margin: 0 0 0 0;
         padding: 5px 5% 3px;
-        /*background-image: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/06/footer-pattern-2.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;*/
@@ -1033,8 +1032,6 @@ color: #ffc4ac;
     }
 
     .subscribeunlock_box {
-        /*background-image: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/06/Melissa-Carter-Pattern.png') !important;
-        background-size: cover;*/
         padding: 10px;
     }
 
@@ -2039,47 +2036,6 @@ display: none;
 
     .comment-list + .comment-respond, .comment-navigation + .comment-respond {
         padding-top: 20px;
-    }
-
-    /*.comment-author .avatar {
-        height: 42px;
-        position: relative;
-        top: 0.25em;
-        width: 42px;
-        background-image: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/07/Melissa-Carter-Avatar-1.png');
-        background-repeat: none;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .comment:nth-of-type(1) .avatar,
-    .comment:nth-of-type(6n+1) .avatar{
-        background-image: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/07/Melissa-Carter-Avatar-1.png');
-    }
-
-    .comment:nth-of-type(2) .avatar,
-    .comment:nth-of-type(6n+2) .avatar{
-        background-image: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/07/Melissa-Carter-Avatar-2.png');
-    }
-
-    .comment:nth-of-type(3) .avatar,
-    .comment:nth-of-type(6n+3) .avatar{
-        background-image: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/07/Melissa-Carter-Avatar-3.png');
-    }
-
-    .comment:nth-of-type(4) .avatar,
-    .comment:nth-of-type(6n+4) .avatar{
-        background-image: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/07/Melissa-Carter-Avatar-4.png');
-    }
-
-    .comment:nth-of-type(5) .avatar,
-    .comment:nth-of-type(6n+5) .avatar{
-        background-image: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/07/Melissa-Carter-Avatar-5.png');
-    }
-
-    .comment:nth-of-type(6) .avatar,
-    .comment:nth-of-type(6n+6) .avatar{
-        background-image: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/07/Melissa-Carter-Avatar-6.png');
     }
 
 /* BLOG SIDEBAR --------------------------------------------- */
@@ -3237,19 +3193,6 @@ padding: 0 0 !important;
         background: #aaa;
     }
 
-    .pagination .next::before {
-        content: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/06/Arrow-Next.png');
-        right: 0px;
-        top: -2px;
-        padding: 0px;
-    }
-
-    .pagination .prev::before {
-        content: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/06/Arrow-Previous.png');
-        right: 0px;
-        top: -2px;
-        padding: 0px;
-    }
 
     .pagination .prev:hover, .pagination .prev:focus, .pagination .next:hover, .pagination .next:focus {
         background: none;
@@ -3258,7 +3201,7 @@ padding: 0 0 !important;
 
 
     .page-numbers {
-        font-family: 'tt-norms-bold', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin: 0 0 0 0;
         padding: 20px 10px 0px;
         text-transform: uppercase;
@@ -3271,17 +3214,6 @@ padding: 0 0 !important;
     .pagination .nav-links {
         padding-right: 0px;
     }
-
-    .woocommerce .next.page-numbers::after {
-        content: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/06/Arrow-Next.png');
-        visibility: visible;
-    }
-
-    .woocommerce .prev.page-numbers::before {
-        content: url('https://www.melissacarterdesign.com/wp-content/uploads/2017/06/Arrow-Previous.png');
-        visibility: visible;
-    }
-
     .woocommerce .prev.page-numbers:hover,
     .woocommerce .next.page-numbers:hover {
         opacity: 0.7;
@@ -4086,11 +4018,6 @@ display: none !important;
         #innerportfolio {
             flex: 0 0 100%;
             margin: 20px 0;
-        }
-
-        .onehalf.melissaabout,
-        .onehalf.melissaabout .floatinghalf {
-            background: #9d2160 !important;
         }
 
         .page-id-8132 .content-area {
